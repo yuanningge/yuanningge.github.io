@@ -1,6 +1,6 @@
-title: Link #博客标题
+title: Dove #博客标题
 description: Just 4 Fun. #博客描述
-keywords: blog,css,html,php #博客关键字
+keywords: blog,note #博客关键字
 
 #title hide and show
 hide: (つェ⊂)我藏好啦
@@ -14,7 +14,7 @@ bulidtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/ti
 paginate: 8 #同时显示的最大文章数，超过自动分页
 paginate_path: "page:num"
 
-background: https://api.dujin.org/bing/1920.php
+background: http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1109/04/c5/8865991_8865991_1315122135140.jpg
 theme_color: 546E7A
 
 google_analytics:
@@ -30,7 +30,7 @@ plugins:
   - jemoji
 
 # social
-author: "Link"
+author: "Dove"
 image:
 twitter:
   username:
