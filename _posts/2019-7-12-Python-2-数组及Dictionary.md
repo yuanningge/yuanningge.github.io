@@ -3,6 +3,7 @@ layout: post
 title: Python 2 note: The first part
 tags: Python_2
 
+---
 布尔符号并不是从左到右依次实现的，他们的优先级为not>and>or，即非>与>或 <br>
 3**16 means 3 to the power of 16,即3的16次方<br>
 range(51)生成的是0至50<br>
@@ -18,7 +19,8 @@ range(51)生成的是0至50<br>
 >new_word=word + first + pyg<br>
 >new_word=new_word[1:len(new_word)]<br>
 
-调用函数有两种方式，其一：<br>
+调用函数有两种方式<br>
+其一：<br>
 >from math import sqrt #from math import *<br>
 >print sqrt(25)<br>
 
@@ -35,17 +37,20 @@ math库里的函数包括：'__doc__', '__name__', '__package__', 'acos', 'acosh
 
 **数组及循环**<br>
 命令：<br>①x.pop(index) 按位置删除<br> ②x.remove(item) 按值删除<br> ③del(x[index]) <br>
-      ④range(stop) range(start,stop) range (start,stop,step) 生成数组list of numbers，默认从0开始步长为1 eg.range(0,3,1)输出[0,1,2],start(inclusive),end(exclusive)
-	   list支持使用[start:end:stride]格式，default值分别为0:最后:1，当stride为-1时你懂的<br>
-	  ⑤两种遍历方式<br>
->	  for item in list:                  for i in range(len(list)):<br>
->       print item                         print list[i]<br>
-      ⑥x=[] y=[] x+y可将两个数组连起来输出<br>
-	  ⑦print " ".join(x) 输出时在数组的item之间添加某种字符串<br>
-      ⑧print xx,  逗号代表输出时在同一行输出<br>
-	  ⑨while与for 也可以与else搭配。但是需要for正常结束（break）之后，else才能执行<br>
-	  ⑩enumerate 自动将index+1 <br>
-	  ①①zip 将两个甚至多个数组打包操作 for a, b in zip(list_a, list_b):<br>
+   ④range(stop) range(start,stop) range (start,stop,step) 生成数组list of numbers，默认从0开始步长为1 eg.range(0,3,1)输出[0,1,2],start(inclusive),end(exclusive) <br>
+list支持使用[start:end:stride]格式，default值分别为0:最后:1，当stride为-1时你懂的<br>
+⑤两种遍历方式<br>
+>	  for item in list:                  <br>
+>       print item       <br><br>     
+>       for i in range(len(list)):<br>
+>                    print list[i]<br>
+
+⑥x=[] y=[] x+y可将两个数组连起来输出<br>
+⑦print " ".join(x) 输出时在数组的item之间添加某种字符串<br>
+⑧print xx,  逗号代表输出时在同一行输出<br>
+⑨while与for 也可以与else搭配。但是需要for正常结束（break）之后，else才能执行<br>
+⑩enumerate 自动将index+1 <br>
+①①zip 将两个甚至多个数组打包操作 for a, b in zip(list_a, list_b):<br>
 
 >start_list = [5, 3, 1, 2, 4]<br>
 >square_list = []<br>
